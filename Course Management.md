@@ -61,5 +61,4 @@ COURSE_VERSION ||--o{ MODULE : contains
 MODULE ||--o{ CONTENT : includes
 COURSE ||--o{ LAB_SESSION : schedules
 COURSE ||--o{ ASSESSMENT : has
-COURSE }o--o{ COURSE : has_prerequisite
-
+COURSE }o--o{ PREREQUISITE : has
